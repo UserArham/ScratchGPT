@@ -33,7 +33,7 @@
             arguments: {
               chatID: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Apple'
+                defaultValue: 'Orange'
               }
             },
           },
@@ -63,7 +63,7 @@
               },
               chatID: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Apple'
+                defaultValue: 'Grape'
               }
             },
           },
@@ -79,7 +79,7 @@
               },
               chatID: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Apple'
+                defaultValue: 'Lime'
               }
             },
           },
@@ -97,7 +97,7 @@
             arguments: {
               chatID: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Apple'
+                defaultValue: 'Kiwi'
               }
             },
           },
@@ -108,11 +108,11 @@
             arguments: {
               json: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'json here'
+                defaultValue: 'Write JSON'
               },
               chatID: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Apple'
+                defaultValue: 'Cheese'
               }
             },
           },
@@ -123,7 +123,7 @@
             arguments: {
               chatID: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Apple'
+                defaultValue: 'Mango'
               }
             },
           },
@@ -134,7 +134,7 @@
             arguments: {
               chatID: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Apple'
+                defaultValue: 'Popsicle'
               }
             },
           },
@@ -151,7 +151,7 @@
             arguments: {
               json: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'json here'
+                defaultValue: 'Write JSON'
               },
               merge: {
                 type: Scratch.ArgumentType.STRING,
