@@ -29,7 +29,7 @@
           {
             opcode: 'createChat',
             blockType: Scratch.BlockType.COMMAND,
-            text: 'Create chatbot named [chatID]',
+            text: 'Create a chatbot named [chatID]',
             arguments: {
               chatID: {
                 type: Scratch.ArgumentType.STRING,
@@ -93,7 +93,7 @@
           {
             opcode: 'exportChat',
             blockType: Scratch.BlockType.REPORTER,
-            text: 'Export chat history of [chatID] in json',
+            text: 'Export chat history of chat [chatID] in json',
             arguments: {
               chatID: {
                 type: Scratch.ArgumentType.STRING,
@@ -130,7 +130,7 @@
           {
             opcode: 'removeChat',
             blockType: Scratch.BlockType.COMMAND,
-            text: 'Delete chatbot [chatID]',
+            text: 'Delete the chatbot [chatID]',
             arguments: {
               chatID: {
                 type: Scratch.ArgumentType.STRING,
@@ -343,7 +343,7 @@
       try {
         importedChats = JSON.parse(json);
       } catch (error) {
-        console.error('Error parsing JSON:', error.message);
+        console.error('Error parsing JSON code:', error.message);
         return;
       }
       if (typeof importedChats === 'object' && importedChats !== null) {
@@ -358,7 +358,7 @@
           console.error('Invalid merge option. Expected "remove all and import" or "merge with existing chats".');
         }
       } else {
-        console.error('Invalid JSON format. Expected an object.');
+        console.error('Invalid JSON code format. Expected an object.');
       }
     }
 
