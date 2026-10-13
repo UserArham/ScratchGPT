@@ -1,3 +1,3 @@
-## ScratchGPT v1.1
+## ScratchGPT v1.2
 
-This includes new stability fixes.
+Write JSON overhauled, and then more improvements.
