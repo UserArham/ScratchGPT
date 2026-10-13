@@ -1,3 +1,3 @@
-## ScratchGPT v1.2
+## ScratchGPT v2
 
-Write JSON overhauled, and then more improvements.
+More improvements, and from GPT-5 Nano to GPT-5.4 mini.
